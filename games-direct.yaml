@@ -157,6 +157,7 @@ payload:
   - PROCESS-NAME,Wuthering Waves.exe
   - PROCESS-NAME,KRWebView.exe # In-game webview
   - PROCESS-NAME,KRSDKExternal.exe
+  
   # --- Steam ---
   - PROCESS-NAME,steam.exe
   - PROCESS-NAME,steamwebhelper.exe
