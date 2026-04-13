@@ -191,8 +191,6 @@ payload:
   - PROCESS-NAME,EpicGamesLauncher.exe
   - PROCESS-NAME,FortniteClient-Win64-Shipping.exe
 
-  # --- Escape from Tarkov ---
-
   # --- Популярные игры ---
   - PROCESS-NAME,PUBG-Win64-Shipping.exe
   - PROCESS-NAME,TslGame.exe
@@ -219,6 +217,10 @@ payload:
   # Stalcraft
   - PROCESS-NAME-REGEX,(?i).*stalcraft.*
   - PROCESS-NAME-REGEX,(?i).*exens.*
+
+  #DayZ
+  - PROCESS-NAME-REGEX,(?i).*DayZ.*
+  - PROCESS-NAME,DZSALauncher.exe
   
   # --- Добавленно вручную ---
   - PROCESS-NAME,Raft.exe
