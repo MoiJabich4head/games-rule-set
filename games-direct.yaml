@@ -1,4 +1,7 @@
 payload:
+  # Launchers
+  - PROCESS-NAME-REGEX,(?i).launcher.*
+  
   # Unreal Engine games
   - PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
 
@@ -108,6 +111,7 @@ payload:
   - PROCESS-NAME,SGuardSvc64.exe # Anti-Cheat Expert
   - PROCESS-NAME,SGuardUpdate64.exe # Anti-Cheat Expert
   - PROCESS-NAME,ACE-Service64.exe # Anti-Cheat Expert
+  - PROCESS-NAME-REGEX,(?i).*battleye.*
 
   # HELLDIVERS 2
   - PROCESS-NAME,helldivers2.exe
