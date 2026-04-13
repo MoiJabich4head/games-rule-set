@@ -159,6 +159,10 @@ payload:
   - PROCESS-NAME,KRSDKExternal.exe
   
   # --- Steam ---
+  - PROCESS-PATH,D:\Steam
+  - PROCESS-PATH,C:\Steam
+  - PROCESS-PATH,C:\Program Files\Steam
+  - PROCESS-PATH,C:\Program Files (x86)\Steam
   - PROCESS-NAME,steam.exe
   - PROCESS-NAME,steamwebhelper.exe
   - PROCESS-NAME,steamservice.exe
@@ -190,6 +194,10 @@ payload:
   - PROCESS-NAME,UbisoftConnect.exe
 
   # --- Epic Games ---
+  - PROCESS-PATH,D:\Epic Games
+  - PROCESS-PATH,C:\Epic Games
+  - PROCESS-PATH,C:\Program Files\Epic Games
+  - PROCESS-PATH,C:\Program Files (x86)\Epic Games
   - PROCESS-NAME,EpicGamesLauncher.exe
   - PROCESS-NAME,FortniteClient-Win64-Shipping.exe
 
