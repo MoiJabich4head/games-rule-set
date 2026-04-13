@@ -22,7 +22,7 @@ payload:
   - PROCESS-NAME,cs2.exe
 
   #DayZ
-  - PROCESS-NAME,DayZ_x64.exe
+  - PROCESS-NAME-REGEX,(?i).*dayz.*
 
   # Euro Truck Simulator 2 / American Trucks Simulator
   - PROCESS-NAME,eurotrucks2.exe
@@ -211,7 +211,11 @@ payload:
   # Skyrim
   - PROCESS-NAME,SkyrimSE.exe
   - PROCESS-NAME,skse64_loader.exe
-
+  
+  # Stalcraft
+  - PROCESS-NAME-REGEX,(?i).*stalcraft.*
+  - PROCESS-NAME-REGEX,(?i).*exens.*
+  
   # --- Добавленно вручную ---
   - PROCESS-NAME,Raft.exe
   - PROCESS-NAME,Tanki.exe
