@@ -1,6 +1,6 @@
 payload:
   # Launchers
-  - PROCESS-NAME-REGEX,(?i).*launcher.*
+  #- PROCESS-NAME-REGEX,(?i).*launcher.*
   
   # Unreal Engine games
   - PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
@@ -25,7 +25,8 @@ payload:
   - PROCESS-NAME,cs2.exe
 
   #DayZ
-  - PROCESS-NAME-REGEX,(?i).*dayz.*
+  #- PROCESS-NAME-REGEX,(?i).*dayz.*
+  #- PROCESS-NAME,DZSALauncher.exe
 
   # Euro Truck Simulator 2 / American Trucks Simulator
   - PROCESS-NAME,eurotrucks2.exe
@@ -217,10 +218,6 @@ payload:
   # Stalcraft
   - PROCESS-NAME-REGEX,(?i).*stalcraft.*
   - PROCESS-NAME-REGEX,(?i).*exens.*
-
-  #DayZ
-  - PROCESS-NAME-REGEX,(?i).*DayZ.*
-  - PROCESS-NAME,DZSALauncher.exe
   
   # --- Добавленно вручную ---
   - PROCESS-NAME,Raft.exe
