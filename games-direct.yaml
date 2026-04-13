@@ -1,6 +1,6 @@
 payload:
   # Launchers
-  - PROCESS-NAME-REGEX,(?i).launcher.*
+  - PROCESS-NAME-REGEX,(?i).*launcher.*
   
   # Unreal Engine games
   - PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
