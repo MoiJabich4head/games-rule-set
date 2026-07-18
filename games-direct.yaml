@@ -231,3 +231,5 @@ payload:
   # --- Добавленно вручную ---
   - PROCESS-NAME,Raft.exe
   - PROCESS-NAME,Tanki.exe
+  - PROCESS-NAME,We Were Here Too.exe
+  - PROCESS-NAME,We Were Here.exe
