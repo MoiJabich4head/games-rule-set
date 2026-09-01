@@ -24,9 +24,9 @@ payload:
   # Counter-Strike 2
   - PROCESS-NAME,cs2.exe
 
-  #DayZ
-  #- PROCESS-NAME-REGEX,(?i).*dayz.*
-  #- PROCESS-NAME,DZSALauncher.exe
+  # DayZ
+  - PROCESS-NAME-REGEX,(?i).*dayz.*
+  - PROCESS-NAME,DZSALauncher.exe
 
   # Euro Truck Simulator 2 / American Trucks Simulator
   - PROCESS-NAME,eurotrucks2.exe
@@ -233,3 +233,5 @@ payload:
   - PROCESS-NAME,Tanki.exe
   - PROCESS-NAME,We Were Here Too.exe
   - PROCESS-NAME,We Were Here.exe
+  - PROCESS-NAME,DZSALauncher.exe
+  - PROCESS-NAME,A3Launcher.exe
