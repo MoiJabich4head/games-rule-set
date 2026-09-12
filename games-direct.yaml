@@ -235,3 +235,4 @@ payload:
   - PROCESS-NAME,We Were Here.exe
   - PROCESS-NAME,DZSALauncher.exe
   - PROCESS-NAME,A3Launcher.exe
+  - PROCESS-NAME,gmod.exe
